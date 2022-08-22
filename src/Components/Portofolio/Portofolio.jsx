@@ -25,7 +25,7 @@ function Portofolio() {
         grabCursor={true}
         className="portfolio-slider"
         >
-          <SwiperSlide>
+          {/* <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -36,7 +36,7 @@ function Portofolio() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         </Swiper>
     </div>
   )

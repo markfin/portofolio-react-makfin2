@@ -58,7 +58,7 @@ const Testimonial = () => {
     >
         {clients.map((client, index)=>{
             return (
-                <SwiperSlide key={index}>
+                {/* <SwiperSlide key={index}>
                 <div className="testimonial"
                 id='Testimonials'
                 >
@@ -68,7 +68,7 @@ const Testimonial = () => {
                         {client.review}
                     </span>
                 </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             )
         })}
     </Swiper>
