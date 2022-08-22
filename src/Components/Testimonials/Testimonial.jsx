@@ -51,14 +51,14 @@ const Testimonial = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
     </div>
   
-    <Swiper
+    {/* <Swiper
      modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
     >
         {clients.map((client, index)=>{
             return (
-                {/* <SwiperSlide key={index}>
+                <SwiperSlide key={index}>
                 <div className="testimonial"
                 id='Testimonials'
                 >
@@ -68,10 +68,10 @@ const Testimonial = () => {
                         {client.review}
                     </span>
                 </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
             )
         })}
-    </Swiper>
+    </Swiper> */}
    </div>
   )
 }

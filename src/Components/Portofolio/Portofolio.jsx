@@ -19,13 +19,13 @@ function Portofolio() {
         <span>
             Portofolio
         </span>
-        <Swiper 
+        {/* <Swiper 
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
         >
-          {/* <SwiperSlide>
+          <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -36,8 +36,8 @@ function Portofolio() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
-        </SwiperSlide> */}
-        </Swiper>
+        </SwiperSlide>
+        </Swiper> */}
     </div>
   )
 }
