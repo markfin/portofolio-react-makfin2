@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer">
         <img src={Wave} alt="" style={{ width:'100% '}}/>
         <div className="f-content">
-<span>marfinzamaruddin@gmail.com</span>
+<span>marfinbussiness@gmail.com</span>
 <div className="f-icons">
     <Insta color='white' size='3rem'/>
     <Facebook color='white' size='3rem'/>
